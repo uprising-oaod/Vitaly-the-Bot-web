@@ -1,7 +1,7 @@
 version: '3.1'
 
-volumes:
-  pg_rails-course:
+#volumes:
+#  pg_rails:
 
 services:
   pg_db:
@@ -11,7 +11,9 @@ services:
       - POSTGRES_PASSWORD=rails
       - POSTGRES_USER=rails
       - POSTGRES_DB=rails
+ #   volumes:
+ #    - pg_rails:volumes/postgres/data
     volumes:
-      - pg_rails:/home/basil/docker/volumes/postgres/data
+      - ./tmp/db:/var/lib/postgresql/data
     ports:
       - ${POSTGRES_PORT:-5432}:5432
