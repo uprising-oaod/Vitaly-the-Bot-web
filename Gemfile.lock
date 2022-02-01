@@ -142,6 +142,9 @@ GEM
     nokogiri (1.13.1)
       mini_portile2 (~> 2.7.0)
       racc (~> 1.4)
+    paper_trail (12.2.0)
+      activerecord (>= 5.2)
+      request_store (~> 1.1)
     pg (1.2.3)
     popper_js (2.9.3)
     public_suffix (4.0.6)
@@ -181,6 +184,8 @@ GEM
     regexp_parser (2.2.0)
     reline (0.3.1)
       io-console (~> 0.5)
+    request_store (1.5.1)
+      rack (>= 1.4)
     rexml (3.2.5)
     rubyzip (2.3.2)
     sassc (2.4.0)
@@ -239,6 +244,7 @@ DEPENDENCIES
   debug
   importmap-rails
   jbuilder
+  paper_trail
   pg (~> 1.1)
   puma (~> 5.0)
   rails (~> 7.0.1)
