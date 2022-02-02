@@ -7,6 +7,7 @@ Rails.application.routes.draw do
   get 'welcome/index'
 
   # Определяем эндпоинты в форме маршрутов
+  # Посмотреть маршруты можно с помощью rails routes или по адресу http://localhost:3000/rails/info/routes
   scope '/api' do
     scope '/v1' do
       scope '/projects' do
