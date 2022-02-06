@@ -56,6 +56,9 @@ gem 'bootstrap', '~> 5.1.3'
 
 gem 'paper_trail'
 
+# grape-swagger autogenerates Swagger-compliant documentation for your Grape API
+gem 'grape-swagger'
+
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
