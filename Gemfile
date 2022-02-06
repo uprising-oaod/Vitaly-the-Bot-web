@@ -56,8 +56,9 @@ gem 'bootstrap', '~> 5.1.3'
 
 gem 'paper_trail'
 
-# grape-swagger autogenerates Swagger-compliant documentation for your Grape API
-gem 'grape-swagger'
+# Grape is a REST-like API framework for Ruby.
+gem 'grape'
+gem 'grape-active_model_serializers'
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
