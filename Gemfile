@@ -56,6 +56,8 @@ gem "sassc-rails"
 # Bootstrap 5 ruby gem for Ruby on Rails (Sprockets)
 gem 'bootstrap', '~> 5.1.3'
 
+gem 'devise'
+
 gem 'paper_trail'
 
 # Grape is a REST-like API framework for Ruby.
