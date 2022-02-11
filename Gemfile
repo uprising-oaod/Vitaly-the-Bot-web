@@ -57,7 +57,7 @@ gem "sassc-rails"
 gem 'bootstrap', '~> 5.1.3'
 
 gem 'devise'
-
+gem 'graphql'
 gem 'paper_trail'
 
 # Grape is a REST-like API framework for Ruby.
@@ -89,3 +89,4 @@ group :test do
   gem "webdrivers"
 end
 
+gem "graphiql-rails", group: :development

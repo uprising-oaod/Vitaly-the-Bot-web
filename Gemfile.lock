@@ -147,6 +147,10 @@ GEM
       grape (>= 0.8.0)
     grape-swagger (1.4.2)
       grape (~> 1.3)
+    graphiql-rails (1.8.0)
+      railties
+      sprockets-rails
+    graphql (1.13.8)
     i18n (1.8.11)
       concurrent-ruby (~> 1.0)
     importmap-rails (1.0.2)
@@ -327,6 +331,8 @@ DEPENDENCIES
   grape
   grape-active_model_serializers
   grape-swagger
+  graphiql-rails
+  graphql
   importmap-rails
   jbuilder
   paper_trail
