@@ -16,5 +16,14 @@ module Types
       Link.all
     end
 
+    # Пример тестового запроса
+    # {
+    #   allLinks{
+    #     id
+    #     url
+    #     description
+    #   }
+    # }
+
   end
 end
