@@ -69,6 +69,7 @@ gem 'grape-swagger'
 gem 'rubocop', require: false
 gem 'rubocop-rails'
 gem 'rubocop-performance'
+gem 'rubocop-rspec'
 
 gem 'yard'
 
