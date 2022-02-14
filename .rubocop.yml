@@ -1,1 +1,24 @@
 inherit_from: .rubocop_todo.yml
+
+require:
+  - rubocop-performance
+  - rubocop-rails
+  - rubocop-rspec
+
+AllCops:
+  TargetRubyVersion: 2.7
+  NewCops: enable
+  Exclude:
+    - 'vendor/**/*'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'tmp/**/*'
+    - 'bin/**/*'
+    - 'plugins/**/*'
+    - 'extra/**/*'
+    - 'lib/generators/**/templates/*'
+    - 'lib/tasks/**/*'
+    - 'files/**/*'
+
+Style/AsciiComments:
+  Enabled: false
