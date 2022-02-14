@@ -67,8 +67,8 @@ gem 'grape-active_model_serializers'
 gem 'grape-swagger'
 
 gem 'rubocop', require: false
-gem 'rubocop-rails'
 gem 'rubocop-performance'
+gem 'rubocop-rails'
 gem 'rubocop-rspec'
 
 gem 'yard'
